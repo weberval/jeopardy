@@ -5,7 +5,7 @@ QT += xml \
     widgets \
     xmlpatterns \
     gui \
-    testlib \
+    multimedia \
     phonon4qt5
 TARGET = jeopardy
 TEMPLATE = app
