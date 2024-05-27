@@ -1,12 +1,15 @@
-# -------------------------------------------------
+#-------------------------------------------------
 # Project created by QtCreator 2011-11-20T15:01:54
 # -------------------------------------------------
 QT += xml \
+    widgets \
     xmlpatterns \
-    phonon
-CONFIG += qtestlib
+    gui \
+    testlib \
+    phonon4qt5
 TARGET = jeopardy
 TEMPLATE = app
+CONFIG += no_lflags_merge
 SOURCES += main.cpp \
     jeopardy.cpp \
     player.cpp \
