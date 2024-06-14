@@ -28,6 +28,15 @@
     <height>615</height>
    </size>
   </property>
+  <property name="font">
+   <font>
+    <family>Noto Color Emoji</family>
+    <pointsize>14</pointsize>
+    <weight>50</weight>
+    <italic>false</italic>
+    <bold>false</bold>
+   </font>
+  </property>
   <property name="cursor">
    <cursorShape>WhatsThisCursor</cursorShape>
   </property>
@@ -40,6 +49,9 @@
   <property name="windowIcon">
    <iconset>
     <normaloff>Initialize</normaloff>Initialize</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">font: 14pt &quot;Noto Color Emoji&quot;;</string>
   </property>
   <widget class="QPushButton" name="buttonRight">
    <property name="geometry">
@@ -55,14 +67,6 @@
      <horstretch>0</horstretch>
      <verstretch>0</verstretch>
     </sizepolicy>
-   </property>
-   <property name="font">
-    <font>
-     <family>Andale Mono</family>
-     <pointsize>14</pointsize>
-     <weight>50</weight>
-     <bold>false</bold>
-    </font>
    </property>
    <property name="cursor">
     <cursorShape>WhatsThisCursor</cursorShape>
@@ -86,14 +90,6 @@
      <verstretch>0</verstretch>
     </sizepolicy>
    </property>
-   <property name="font">
-    <font>
-     <family>Andale Mono</family>
-     <pointsize>14</pointsize>
-     <weight>50</weight>
-     <bold>false</bold>
-    </font>
-   </property>
    <property name="cursor">
     <cursorShape>WhatsThisCursor</cursorShape>
    </property>
@@ -115,14 +111,6 @@
      <horstretch>0</horstretch>
      <verstretch>0</verstretch>
     </sizepolicy>
-   </property>
-   <property name="font">
-    <font>
-     <family>Andale Mono</family>
-     <pointsize>14</pointsize>
-     <weight>50</weight>
-     <bold>false</bold>
-    </font>
    </property>
    <property name="cursor">
     <cursorShape>WhatsThisCursor</cursorShape>
@@ -148,14 +136,18 @@
    </property>
    <property name="font">
     <font>
-     <family>Andale Mono</family>
-     <pointsize>28</pointsize>
+     <family>Noto Color Emoji</family>
+     <pointsize>24</pointsize>
      <weight>50</weight>
+     <italic>false</italic>
      <bold>false</bold>
     </font>
    </property>
    <property name="cursor">
     <cursorShape>WhatsThisCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 24pt &quot;Noto Color Emoji&quot;;</string>
    </property>
    <property name="text">
     <string>listen...</string>
@@ -182,12 +174,6 @@
      <height>31</height>
     </rect>
    </property>
-   <property name="font">
-    <font>
-     <family>Andale Mono</family>
-     <pointsize>20</pointsize>
-    </font>
-   </property>
    <property name="cursor">
     <cursorShape>WhatsThisCursor</cursorShape>
    </property>
@@ -212,14 +198,6 @@
      <horstretch>0</horstretch>
      <verstretch>0</verstretch>
     </sizepolicy>
-   </property>
-   <property name="font">
-    <font>
-     <family>Andale Mono</family>
-     <pointsize>14</pointsize>
-     <weight>50</weight>
-     <bold>false</bold>
-    </font>
    </property>
    <property name="cursor">
     <cursorShape>WhatsThisCursor</cursorShape>
@@ -265,11 +243,6 @@
      <width>221</width>
      <height>16</height>
     </rect>
-   </property>
-   <property name="font">
-    <font>
-     <pointsize>14</pointsize>
-    </font>
    </property>
    <property name="text">
     <string/>
