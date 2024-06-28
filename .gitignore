@@ -3,4 +3,4 @@ moc_*
 jeopardy
 Makefile
 .qmake.stash
-gamestate/
+gameStates/

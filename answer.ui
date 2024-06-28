@@ -30,8 +30,8 @@
   </property>
   <property name="font">
    <font>
-    <family>Noto Color Emoji</family>
-    <pointsize>14</pointsize>
+    <family>Liberation Mono</family>
+    <pointsize>12</pointsize>
     <weight>50</weight>
     <italic>false</italic>
     <bold>false</bold>
@@ -51,7 +51,7 @@
     <normaloff>Initialize</normaloff>Initialize</iconset>
   </property>
   <property name="styleSheet">
-   <string notr="true">font: 14pt &quot;Noto Color Emoji&quot;;</string>
+   <string notr="true">font: 12pt &quot;Liberation Mono&quot;;</string>
   </property>
   <widget class="QPushButton" name="buttonRight">
    <property name="geometry">
@@ -136,7 +136,7 @@
    </property>
    <property name="font">
     <font>
-     <family>Noto Color Emoji</family>
+     <family>Liberation Mono</family>
      <pointsize>24</pointsize>
      <weight>50</weight>
      <italic>false</italic>
@@ -147,7 +147,7 @@
     <cursorShape>WhatsThisCursor</cursorShape>
    </property>
    <property name="styleSheet">
-    <string notr="true">font: 24pt &quot;Noto Color Emoji&quot;;</string>
+    <string notr="true">font: 24pt &quot;Liberation Mono&quot;;</string>
    </property>
    <property name="text">
     <string>listen...</string>
